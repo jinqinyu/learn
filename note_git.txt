@@ -30,6 +30,9 @@ git branch -d dev #删除dev分支
 git branch dev #创建dev分支 
 git branch --set-upstream-to=origin/dev dev  #指定本地dev分支与远程origin/dev分支的链接
 git checkout -b branch-name origin/branch-name  #在本地创建和远程分支对应的分支
+git fetch 相当于是从远程获取最新版本到本地，不会自动merge
+git stash push 将文件给push到一个临时空间中
+git stash pop 将文件从临时空间pop下来
 
 git tag 标签  #给最新的commit打标签
 git tag 标签 commit ID  #给commitID打标签
