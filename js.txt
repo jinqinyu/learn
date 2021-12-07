@@ -10,3 +10,23 @@ reduce
 
 reduce()是数组array的方法，可以操作数组里的值，这个函数必须接受两个参数，使用方法如下：
 array.reduce(function(x,y){return x*10+y;});
+
+
+Date
+typeof 123 #查看类型
+var now = new Date(); #获取当前时间
+now.getFullYear();#年
+now.getMonth();#月0~11
+now.getDate();#日
+now.getDay();#星期几
+now.getHours();#时
+now.getMinutes();#分
+now.getSeconds();#秒
+now.getTime();#时间戳
+now.toLocaleString();
+now.toGMTString();#中国时区
+
+
+JSON
+JSON.stringify(对象)#把对象转化为json字符串
+JSON.parse(‘字符串’)#把字符串转化为对象
