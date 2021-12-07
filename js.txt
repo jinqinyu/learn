@@ -1,0 +1,12 @@
+map
+
+map()方法定义在JavaScript的Array中，使用方法如下：
+var array=[1,2,3,4];
+array.map(String);#把array的所有数字转为字符串
+array.map(functionNmae);#map里面传入函数名，表示将属组函数化操作
+
+
+reduce
+
+reduce()是数组array的方法，可以操作数组里的值，这个函数必须接受两个参数，使用方法如下：
+array.reduce(function(x,y){return x*10+y;});
